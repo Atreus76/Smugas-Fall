@@ -5,7 +5,7 @@ var testVar = document.getElementById("test");
 
 function addTask(){
     if (isDuplicate()===true){
-        alert("Task already on the list");
+        alert("Task already exists on the list");
     }
     else if (inputBox.value === ''){
         alert("You must write something!!!");
